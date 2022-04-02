@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+/* Index Page */
+.img-profile{
+    border-radius: 50%;
+}
+
+.profile-table {
+    padding: 20px; 
+    margin: 10px;
+}
+
+.profile-table td {
+    padding: 15px;
+}
+
+/* All tables??? */
+table {
+    padding: .5rem;
+    text-align: center;
+}
+
+
+/* Work Experience Page */
+/* Work History and Experience Table */
+.wk-exp {
+    width: 600px;
+    border: 5px solid darkgray;
+    text-align: left;
+    overflow-x: hidden;
+}
+.wk-exp #dates {
+    width: 15%;
+}
+.wk-exp #company {
+    width: 20%;
+}
+.wk-exp #role {
+    width: 65%;
+}
+.wk-exp th{
+    color: darkgray;
+    font-size: 1.5rem;
+}
+.wk-exp td {
+    padding-left: 0.25rem;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+}
+
+/* Languages Table */
+.languages {
+    width: 600px;
+    text-align: left;
+    border: 5px solid darkgrey;
+}
+.languages th {
+    color: darkgray;
+    font-size: 1.5rem;
+}
+.languages td{
+    padding: 0.5rem;
+}
+.languages #star {
+    color: yellow;
+    font-size: 1rem;
+}
